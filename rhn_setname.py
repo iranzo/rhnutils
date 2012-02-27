@@ -44,7 +44,7 @@ def usage():
 	print "-n VAR"
 	print "-s https://SERVER/rpc/api"
 	print ""
-	print "Example: rhn_setname.py -u custom -n PROFILENAME --s https://rhn.redhat.com/rpc/api"
+	print "Example: rhn_setname.py -u custom -p custom -n PROFILENAME -s https://rhn.redhat.com/rpc/api"
 	
 	sys.exit(1)
 

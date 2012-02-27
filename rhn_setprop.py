@@ -45,7 +45,7 @@ def usage():
 	print "-v VALUE"
 	print "-s https://SERVER/rpc/api"
 	print ""
-	print "Example: setprop.py -u custom -n Location -v rack1 --s https://rhn.redhat.com/rpc/api"
+	print "Example: setprop.py -u custom -p custom -n Location -v rack1 --s https://rhn.redhat.com/rpc/api"
 	
 	sys.exit(1)
 

@@ -42,7 +42,7 @@ def usage():
 	print "-p PASSWORD"
 	print "-s https://SERVER/rpc/api"
 	print ""
-	print "Example: getvalues.py -u custom -p custom --s https://rhn.redhat.com/rpc/api"
+	print "Example: getvalues.py -u custom -p custom -s https://rhn.redhat.com/rpc/api"
 	
 	sys.exit(1)
 

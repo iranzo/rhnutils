@@ -44,7 +44,7 @@ def usage():
 	print "-n Groupname"
 	print "-s https://SERVER/rpc/api"
 	print ""
-	print "Example: setgroup.py -u custom -n Servers --s https://rhn.redhat.com/rpc/api"
+	print "Example: setgroup.py -u custom -p custom -n Servers -s https://rhn.redhat.com/rpc/api"
 	
 	sys.exit(1)
 

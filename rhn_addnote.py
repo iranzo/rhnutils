@@ -44,7 +44,7 @@ def usage():
 	print "-v VALUE"
 	print "-s https://SERVER/rpc/api"
 	print ""
-	print "Example: rhn_addnote.py -u custom 'Subject' 'text' --s https://rhn.redhat.com/rpc/api"
+	print "Example: rhn_addnote.py -u custom -n 'Subject' -v 'text' -s https://rhn.redhat.com/rpc/api"
 	
 	sys.exit(1)
 
