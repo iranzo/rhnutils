@@ -84,4 +84,4 @@ for option, parameter in opts:
 server=xmlrpclib.Server(satelliteURL)
 rhnSession=login(username,password)
 sid = int(getSystemID())
-server.system.listNotes(rhnSession,sid,name,val)
+server.system.listNotes(rhnSession,sid)
