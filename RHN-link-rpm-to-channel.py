@@ -88,7 +88,7 @@ try:
     server.channel.software.getDetails(rhnSession, options.channel)  # Search for existing channel
 except:
     try:
-        #Channel creation
+        # Channel creation
         server.channel.software.create(rhnSession, options.channel, options.channel, 'Custom channel by', options.arch,
                                        '')
     except:
