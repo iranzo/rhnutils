@@ -37,6 +37,7 @@ def usage():
     print("-u USER")
     print("-p PASSWORD")
     print("-s https://SERVER/rpc/api")
+    print("--static path/to/file")
     print("")
     print("Example: rhn_etchosts.py -u custom -p custom -s https://rhn.redhat.com/rpc/api")
 
@@ -44,8 +45,8 @@ def usage():
 
 
 params = sys.argv[1:]
-
-opts, args = getopt.getopt(params, 'u:p:n:v:s:i:', ['username=', 'password=', 'name=', 'value=', 'satelliteURL='])
+static = False
+opts, args = getopt.getopt(params, 'u:p:n:v:s:i:', ['username=', 'password=', 'name=', 'value=', 'satelliteURL=', 'static='])
 
 if len(opts) < 3:
     usage()
@@ -57,10 +58,21 @@ for option, parameter in opts:
         password = parameter
     if option == '-s' or option == '--satelliteURL':
         satelliteURL = parameter
+    if option == '--static':
+        static = parameter
+
 
 server = xmlrpclib.Server(satelliteURL)
 rhnSession = login(username, password)
 
+if static:
+    print "\n### Init of static file\n"
+    f = open(static, 'r')
+    output = False
+    for l in f.readlines():
+        print l
+
+print "\n### print of dynamic list\n"
 for system in server.system.listUserSystems(rhnSession, username):
     sid = int(system["id"])
     hostname, ip = server.system.getNetwork(rhnSession, sid)["hostname"], server.system.getNetwork(rhnSession, sid)["ip"]
