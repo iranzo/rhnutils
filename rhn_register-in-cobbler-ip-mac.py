@@ -102,7 +102,7 @@ if sid == "all":
                 mac = device["hardware_address"]
         if hostname and ip and mac:
             # Remove previous profile if it existed
-            command = 'NAME=$(cobbler system find  --mac=%s); [ "$NAME" != "" ] && cobbler system remove --name=$NAME)' % mac
+            command = 'NAME=$(cobbler system find  --mac=%s) && [ "$NAME" != "" ] && cobbler system remove --name=$NAME)' % mac
             os.system(command)
             # Add the new profile
             command = "cobbler system add --name=%s --profile=%s --mac-address=%s --ip-address=%s --netboot-enabled no --interface eth0" % (hostname, profile, mac, ip)
@@ -119,7 +119,7 @@ else:
             mac = device["hardware_address"]
     if hostname and ip and mac:
         # Remove previous profile if it existed
-        command = 'NAME=$(cobbler system find  --mac=%s); [ "$NAME" != "" ] && cobbler system remove --name=$NAME)' % mac
+        command = 'NAME=$(cobbler system find  --mac=%s) && [ "$NAME" != "" ] && cobbler system remove --name=$NAME)' % mac
         os.system(command)
         # Add the new profile
         command = "cobbler system add --name=%s --profile=%s --mac-address=%s --ip-address=%s --netboot-enabled no --interface eth0" % (hostname, profile, mac, ip)
