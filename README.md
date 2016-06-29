@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/iranzo/rhnutils.svg?branch=master)](https://travis-ci.org/iranzo/rhnutils)
+
+
 ###RHN-UTILS
 Author: Pablo Iranzo Gómez (Pablo.Iranzo@redhat.com)
 
