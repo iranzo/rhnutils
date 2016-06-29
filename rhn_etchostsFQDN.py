@@ -70,7 +70,7 @@ if static:
     f = open(static, 'r')
     output = False
     for l in f.readlines():
-        print(l.replace("\n",""))
+        print(l.replace("\n", ""))
 
 print "\n### print of dynamic list\n"
 for system in server.system.listUserSystems(rhnSession, username):
