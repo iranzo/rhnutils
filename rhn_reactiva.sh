@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Pablo Iranzo Gómez (Pablo.Iranzo@redhat.com)
+# Pablo Iranzo Gómez (Pablo.Iranzo@gmail.com)
 #
 # Script for obtaining a reactivation key for this profile to keep history, groups, events, etc
 #

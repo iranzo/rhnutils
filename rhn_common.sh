@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Pablo Iranzo Gómez (Pablo.Iranzo@redhat.com)
+# Pablo Iranzo Gómez (Pablo.Iranzo@gmail.com)
 #
 # Common values for the remaining scripts to interact with RHN/Satellite API
 

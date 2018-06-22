@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Pablo Iranzo Gómez (Pablo.Iranzo@redhat.com)
+# Pablo Iranzo Gómez (Pablo.Iranzo@gmail.com)
 #
 # Sample script for populating some values using auxiliary scripts
 #

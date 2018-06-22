@@ -9,7 +9,7 @@
 # based from files of a previous DVD image without having to duplicate disk
 # usage on satellite side
 #
-# Author: Pablo Iranzo Gomez (Pablo.Iranzo@redhat.com)
+# Author: Pablo Iranzo Gomez (Pablo.Iranzo@gmail.com)
 #
 
 import os

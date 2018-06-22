@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# Author: Pablo Iranzo Gomez (Pablo.Iranzo@redhat.com)
+# Author: Pablo Iranzo Gomez (Pablo.Iranzo@gmail.com)
 # Based on work by Andrew Cathrow <acathrow@redhat.com>, protected by GPL 2.0
 # Description: Script to get notes to a system profile in satellite
 #

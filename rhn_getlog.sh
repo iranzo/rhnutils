@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Pablo Iranzo Gómez (Pablo.Iranzo@redhat.com)
+# Pablo Iranzo Gómez (Pablo.Iranzo@gmail.com)
 #
 # Description: Script for getting event log for a system
 #

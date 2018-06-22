@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Pablo Iranzo Gómez (Pablo.Iranzo@redhat.com)
+# Pablo Iranzo Gómez (Pablo.Iranzo@gmail.com)
 #
 # Script for editing custom_info values for being used with configuration files 'Macros' or scripts
 #

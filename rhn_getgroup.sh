@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Pablo Iranzo Gómez (Pablo.Iranzo@redhat.com)
+# Pablo Iranzo Gómez (Pablo.Iranzo@gmail.com)
 #
 # Description: Script for obtaining groupmembership for this host
 #

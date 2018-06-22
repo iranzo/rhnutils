@@ -2,7 +2,7 @@
 
 
 ###RHN-UTILS
-Author: Pablo Iranzo Gómez (Pablo.Iranzo@redhat.com)
+Author: Pablo Iranzo Gómez (Pablo.Iranzo@gmail.com)
 
 Description: Those scripts are used for providing some interaction with RHN/Satellite  API to ease system management on them.
 
